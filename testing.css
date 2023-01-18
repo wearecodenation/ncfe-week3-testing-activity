@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Secular+One&display=swap');
+
+body{
+    margin: 0;
+}
+
+header, footer{
+    height: 40vh;
+}
+
+header{
+    background-image: url('header_bg.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #b5cbc4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 8rem;
+    color: rgb(67, 106, 144);
+    text-shadow: 4px 4px 1px white;
+    margin: 0px;
+}
+
+button{
+    background-color: rgb(67, 106, 144);
+    border: 5px solid white;
+    box-shadow: 3px 3px 3px grey;
+    padding: 20px;
+    min-width: 70%;
+    color: white;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: #00171F;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(2px);
+    box-shadow: 3px 1px 3px grey;
+}
+
+h2{
+    font-family: 'Secular One', sans-serif;
+    font-size: 4rem;
+    color: rgb(67, 106, 144);
+    text-shadow: 4px 4px 1px white;
+    margin: 0px;
+}
+
+header p{
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+
+
+nav{
+    background-color: #849b93;
+    border-bottom: 5px solid #00171F;
+    min-height: 5vh;
+    font-family: 'Secular One', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00171F;
+}
+
+nav a:hover{
+    color: #805e73;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 26%;
+    background-color: #b5cbc4;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 3px 2px 3px grey;
+}
+
+.card img{
+    width:80%;
+    border: 5px white solid;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px grey;
+    margin: 3%;
+}
+
+.cat-of-the-week{
+    margin: 2%;
+    min-height: 50vh;
+    background-color: #b5cbc4;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 3px 2px 3px grey;
+}
+
+.cat-of-the-week img{
+    height: 40vh;
+    border: 5px white solid;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px grey;
+    margin: 1%;
+}
+
+footer{
+    background-color: #849b93;
+    border-top: 5px solid #00171F;
+    width: 1000%;
+}
